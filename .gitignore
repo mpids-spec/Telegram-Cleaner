@@ -1,0 +1,20 @@
+# Telegram session — contains your login, NEVER commit this!
+*.session
+*.session-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# API keys
+config.py
+secrets.py
+
+# OS
+.DS_Store
+Thumbs.db
